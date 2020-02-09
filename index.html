@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark justify-content-center">
+        <div class="navbar-brand">
+            <p class=h2>Weather Dashboard</p>
+        </div>
+    </nav>
+        <div class="row">
+            <div class="col-sm-2" id="searchBox">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"></div>
+            <div class="col-sm-1" id="searchButton">
+                <a href="#" class="btn btn-primary">
+                    <i class="fas fa-search"></i>
+                </a></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <ul class="list-group"></ul>
+            </div>
+            <div class="col-sm-9">
+                <div class="jumbotron">
+                    <h2 class="city"></h2>
+                    <img id="icon"></img>
+                    <h4 class="temp"></h4>
+                    <h4 class="humidity"></h4>
+                    <h4 class="windSpeed"></h4>
+                    <h4 class="uvIndex"></h4>
+                    <hr class="my-4">
+                    <div class="row" id="future">
+                        <div class="col-sm-2">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title" id="day-3"></h5>
+                                    <h6 class="card-subtitle mb-2 text-muted" id="temp-3"></h6>
+                                    <p class="card-text" id="humid-3"></p>
+                                    <img id="icon-3"></img>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title" id="day-11"></h5>
+                                    <h6 class="card-subtitle mb-2 text-muted" id="temp-11"></h6>
+                                    <p class="card-text" id="humid-11"></p>
+                                    <img id="icon-11"></img>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title" id="day-19"></h5>
+                                    <h6 class="card-subtitle mb-2 text-muted" id="temp-19"></h6>
+                                    <p class="card-text" id="humid-19"></p>
+                                    <img id="icon-19"></img>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title" id="day-27"></h5>
+                                    <h6 class="card-subtitle mb-2 text-muted" id="temp-27"></h6>
+                                    <p class="card-text" id="humid-27"></p>
+                                    <img id="icon-27"></img>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title" day id="day-35"></h5>
+                                    <h6 class="card-subtitle mb-2 text-muted" id="temp-35"></h6>
+                                    <p class="card-text" id="humid-35"></p>
+                                    <img id="icon-35"></img>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>

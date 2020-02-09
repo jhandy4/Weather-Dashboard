@@ -1,0 +1,28 @@
+.col-sm-3{
+    padding-left: 30px;
+}
+
+.card{
+    width: fit-content;
+}
+
+.jumbotron{
+    position: relative;
+    top: -55px;
+    text-align: center;
+    padding-top: -30px;
+    padding-right: 30px;
+    padding-right: 30px;
+}
+
+#searchBox{
+    padding: 25px 15px 15px 30px;
+}
+
+#searchButton{
+    padding: 25px 15px 15px 15px;
+}
+
+#future{
+    justify-content: center;
+}
